@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.whatsgoldapp.site/` + encodeURI(path as string)
+					`https://todaytrends.site/` + encodeURI(path as string)
 				}`,
 			},
 		};
